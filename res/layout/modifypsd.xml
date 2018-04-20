@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<RelativeLayout
+	    android:id="@+id/tableRow1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+	    <EditText
+	        android:id="@+id/edit_OldPsd"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginLeft="60dp"
+	        android:ems="10"
+	        android:inputType="textPassword"
+	        android:textSize="12dp" />
+
+	    <TextView
+	        android:id="@+id/text_OldPsd"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignBaseline="@+id/edit_OldPsd"
+	        android:layout_alignBottom="@+id/edit_OldPsd"
+	        android:layout_alignParentLeft="true"
+       		android:textSize="12dp"
+	        android:text="@string/OldPsd" />
+	</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/edit_newPsd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/text_newPsd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edit_newPsd"
+            android:layout_alignBottom="@+id/edit_newPsd"
+            android:layout_alignParentLeft="true"
+       		android:textSize="12dp"
+            android:text="@string/NewPsd" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <EditText
+            android:id="@+id/edit_newPsd2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="60dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textSize="12dp" />
+
+        <TextView
+            android:id="@+id/text_newPsd2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/edit_newPsd2"
+            android:layout_alignBottom="@+id/edit_newPsd2"
+            android:layout_alignParentLeft="true"
+       		android:textSize="12dp"
+            android:text="@string/NewPsd2" />
+    </RelativeLayout>
+    
+    <RelativeLayout
+	    android:id="@+id/tableRow4"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+	    <Button
+		        android:id="@+id/cancelButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginRight="20dp"
+       			android:textSize="15dp"
+       			android:textStyle="bold"
+       			android:drawableLeft="@drawable/cancel"    			
+        		android:textColor="#0080FF"
+        		android:background="#00FFFFFF"
+		        android:text="@string/Cancel" />
+		
+		<Button
+		        android:id="@+id/OKButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginLeft="20dp"
+       			android:textSize="15dp"
+       			android:textStyle="bold"
+       			android:drawableLeft="@drawable/ok"    			
+        		android:textColor="#0080FF"
+        		android:background="#00FFFFFF"
+		        android:text="@string/OK" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

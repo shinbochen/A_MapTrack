@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--MF VENTURES  A-MapTrack-->
+    <string name="hello">Hello World, MapTrack!</string>
+    <string name="app_name">A_MapTrack</string>
+    <string name="TrackOnce">定 位</string>
+    <string name="TrackLast">最后位置</string>
+    <string name="Stop_Engine">远程断油</string>
+    <string name="Resume_Engine">恢复油路</string>
+    <string name="Car_Listen">远程监听</string>
+    <string name="Car_Talk">远程通话</string>
+    <string name="Remote_Lock">远程锁门</string>
+    <string name="Remote_Unlock">远程开门</string>
+    <string name="Label_VehicleList">车辆</string>
+    <string name="Label_Feekback">GPS数据</string>
+    <string name="delete">删除</string>
+    <string name="deleteall">删除全部</string>
+    <string name="CarLicense">监控对像</string>
+    <string name="AlarmType">报警类型</string>
+   <string name="Query">查询</string>
+   <string name="Time">时间</string>   
+   <string name="Remark">备注</string>
+   <string name="Satellite">卫星地图</string>
+   <string name="StreetView">街</string>
+   <string name="Traffic">交通地图</string>
+   <string name="username">用户名称：</string>
+   <string name="userpsd">用户密码：</string>
+   <string name="FName">姓氏：</string>
+   <string name="LName">名字：</string>
+   <string name="Tel_no">电话：</string>
+   <string name="Email">邮箱：</string>
+   <string name="Company">公司：</string>
+   <string name="Key">Key：</string>
+   <string name="Cancel">取消</string>
+   <string name="OK">确定</string>
+   <string name="Add">增加</string>
+   <string name="Modiyf">修改</string>
+   <string name="IP">IP地址:</string>
+   <string name="Port">端口:</string>
+   <string name="Config">设置</string>
+   <string name="OldPsd">旧密码</string>
+   <string name="NewPsd">新密码</string>
+   <string name="NewPsd2">确认密码</string>
+   <string name="ModifyPsd">修改密码</string>
+   <string name="DEUID">终端序列号</string>
+   <string name="DEType">类型</string>
+   <string name="DESIM">设备卡号</string>
+   <string name="Address">地址</string>
+   <string name="VehicleShow">车辆显示</string>
+   <string name="Play">播放</string>
+   <string name="Pause">暂停</string>
+   <string name="Stop">停止</string>
+   <string name="Map_Car">"点击我"</string>
+   
+</resources>

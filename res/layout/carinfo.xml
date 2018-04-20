@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	
+	<TableLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:stretchColumns="1">	
+	
+		<TableRow>
+			<TextView 
+			android:text="@string/CarLicense" 
+			android:id="@+id/Text_CarLicense"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText
+			    android:id="@+id/Edit_CarLicense"
+			    android:layout_width="fill_parent"
+			    android:layout_height="40dp"
+			    android:inputType="text"
+			    android:text=""
+			    android:textSize="12dp" />
+
+		</TableRow>
+
+		<TableRow>
+			<TextView 
+			android:text="@string/DEUID" 
+			android:id="@+id/Text_DEUID"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText
+			    android:id="@+id/Edit_DEUID"
+			    android:layout_width="fill_parent"
+			    android:layout_height="40dp"
+			    android:inputType="text"
+			    android:text=""
+			    android:textSize="12dp" />
+
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+			android:text="@string/DEType" 
+			android:id="@+id/Text_DEType"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<Spinner
+        	    android:id="@+id/Spinner_DEType"
+				android:layout_width="wrap_content" 
+				android:layout_height="45dp"/>
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+			android:text="@string/DESIM" 
+			android:id="@+id/Text_DESIM"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText
+			    android:id="@+id/Edit_DESIM"
+			    android:layout_width="fill_parent"
+			    android:layout_height="40dp"
+			    android:inputType="phone"
+			    android:text=""
+			    android:textSize="12dp" />
+
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+			android:text="@string/FName" 
+			android:id="@+id/Text_FName"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText
+			    android:id="@+id/Edit_FName"
+			    android:layout_width="fill_parent"
+			    android:layout_height="40dp"
+			    android:inputType="text"
+			    android:text=""
+			    android:textSize="12dp" />
+
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+			android:text="@string/LName" 
+			android:id="@+id/Text_LName"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText
+			    android:id="@+id/Edit_LName"
+			    android:layout_width="fill_parent"
+			    android:layout_height="40dp"
+			    android:inputType="text"
+			    android:text=""
+			    android:textSize="12dp" />
+
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+			android:text="@string/Tel_no" 
+			android:id="@+id/Text_TelNo"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText
+			    android:id="@+id/Edit_TelNo"
+			    android:layout_width="fill_parent"
+			    android:layout_height="40dp"
+			    android:inputType="phone|textEmailAddress"
+			    android:text=""
+			    android:textSize="12dp" />
+
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+			android:text="@string/Address"
+			android:id="@+id/Text_Addr"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText
+			    android:id="@+id/Edit_Addr"
+			    android:layout_width="fill_parent"
+			    android:layout_height="40dp"
+			    android:inputType="text"
+			    android:text=""
+			    android:textSize="12dp" />
+
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+			android:text="@string/Remark" 
+			android:id="@+id/Text_Remark"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText
+			    android:id="@+id/Edit_Remark"
+			    android:layout_width="fill_parent"
+			    android:layout_height="40dp"
+			    android:inputType="text"
+			    android:text=""
+			    android:textSize="12dp" />
+
+		</TableRow>
+		
+		<RelativeLayout
+	    android:id="@+id/tableRow"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+	    <Button
+		        android:id="@+id/cancelButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginRight="20dp"
+       			android:textSize="15dp"
+       			android:textStyle="bold"
+       			android:drawableLeft="@drawable/cancel"       			
+        		android:textColor="#0080FF"
+        		android:background="#00FFFFFF"
+		        android:text="@string/Cancel" />
+		
+		<Button
+		        android:id="@+id/OkButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginLeft="20dp"
+       			android:textSize="15dp"
+       			android:textStyle="bold"
+       			android:drawableLeft="@drawable/ok"    			
+        		android:textColor="#0080FF"
+        		android:background="#00FFFFFF"
+		        android:text="@string/OK" />
+
+    </RelativeLayout>
+	</TableLayout>
+</LinearLayout>

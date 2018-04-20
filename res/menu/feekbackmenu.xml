@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+        
+	<item android:id="@+id/Feek_delete" 
+	      android:title="@string/delete" />
+	
+	<item android:id="@+id/Feek_Deleteall" 
+	      android:title="@string/deleteall" />
+</menu>
+
+<!-- android:icon="@android:drawable/ic_launcher" -->

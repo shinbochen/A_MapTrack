@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    				  android:id="@+id/maptablayout" 
+    				  android:orientation="vertical"  
+    				  android:layout_width="fill_parent" 
+    				  android:layout_height="fill_parent">
+   
+    <TableRow
+        android:id="@+id/tableRow0"
+        android:layout_width="fill_parent"
+        android:layout_height="8dp" >
+        
+    </TableRow>
+    
+	<TextView
+		  android:id="@+id/Label_VehicleList"
+	      android:layout_width="fill_parent"
+	      android:layout_height="20dp"
+	 	  android:textSize="12dp" 
+	       android:layout_below="@+id/tableRow0"
+	      android:text="@string/Label_VehicleList" />
+	
+     <ListView
+           android:id="@+id/List_Vehicle"
+           android:layout_width="fill_parent"
+           android:layout_height="200dp"
+           android:drawSelectorOnTop="false"
+           android:scrollbars="vertical"
+           android:background="#ff00ff"
+           android:layout_below="@+id/Label_VehicleList"
+           android:textSize="12dp" />
+
+     <GridView
+         android:id="@+id/TECmd_GridView"
+         android:layout_width="fill_parent"
+         android:layout_height="155dp"
+         android:layout_below="@+id/List_Vehicle"
+         android:numColumns="4" >
+     </GridView>
+
+</LinearLayout>  

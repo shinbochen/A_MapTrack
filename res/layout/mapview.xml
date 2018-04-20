@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    				  android:id="@+id/maptablayout" 
+    				  android:orientation="vertical"  
+    				  android:layout_width="fill_parent" 
+    				  android:layout_height="fill_parent"> 
+    				   
+    	<!--<com.google.android.maps.MapView 
+        	android:id="@+id/MapTrack"  
+       		android:layout_width="fill_parent" 
+       		android:layout_height="fill_parent"  
+       		android:clickable="true"  
+        	android:apiKey="0sLMkpuGqn9eyeLA2i6aVT7BMgsWJegeVfmhdCg"/> -->
+    	 
+    		<!--  0sLMkpuGqn9ci_TxcgFREx4uiOD3RUmiiOhzrdw (公司) -->
+    		<!--  0sLMkpuGqn9cV6_F39GBtjkE6w6cI6K0vLKca2A (家)-->
+    		<!--  0sLMkpuGqn9fCP6qevgQmLE1d4HYFM1d54n9eTw -->
+    		<!-- 0sLMkpuGqn9eyeLA2i6aVT7BMgsWJegeVfmhdCg (公司发行版) -->
+
+		 <WebView android:id="@+id/webview"   
+      			  android:layout_width="fill_parent"   
+      			  android:layout_height="fill_parent"/> 
+       	
+    	 <Button
+    	     android:id="@+id/map_car"
+    	     android:layout_width="60dp"
+    	     android:layout_height="wrap_content"
+    	     android:layout_alignParentRight="true"
+    	     android:layout_alignParentTop="true"
+    	     android:layout_marginTop="20dp"
+    	     android:layout_marginLeft="20dp"
+    	     android:background="#00FFFFFF"
+    	     android:drawableTop="@drawable/car2"
+    	     android:text="@string/Map_Car"
+    	     android:textColor="#FF0000"/>
+
+</RelativeLayout>  

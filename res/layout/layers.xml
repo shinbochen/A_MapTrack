@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    				  android:id="@+id/maptablayout" 
+    				  android:orientation="vertical"  
+    				  android:layout_width="fill_parent" 
+    				  android:layout_height="fill_parent">  
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >   
+      
+	    <TextView     
+	        android:id="@+id/Layers_title"    
+	        android:textSize="18dip"    
+	        android:layout_weight="1"    
+	        android:layout_width="wrap_content"    
+	        android:layout_height="wrap_content"
+	        android:text="@string/Satellite"/>  
+	    <CheckBox    
+	        android:id="@+id/Layers_check"    
+	        android:layout_width="wrap_content"    
+	        android:layout_height="wrap_content"    
+	        android:focusable="false"    
+	        android:focusableInTouchMode="false"    
+	        android:checkMark="?android:attr/listChoiceIndicatorMultiple"/>  
+   </TableRow>  
+   <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow1" >
+	    
+	    <TextView     
+	        android:id="@+id/Layers_title2"    
+	        android:textSize="18dip"    
+	        android:layout_weight="1"    
+	        android:layout_width="wrap_content"    
+	        android:layout_height="wrap_content"
+	        android:text="@string/StreetView"/>  
+	          
+	    <CheckBox    
+	        android:id="@+id/Layers_check2"      
+	        android:layout_width="wrap_content"    
+	        android:layout_height="wrap_content"    
+	        android:focusable="false"    
+	        android:focusableInTouchMode="false"    
+	        android:checkMark="?android:attr/listChoiceIndicatorMultiple"/> 
+    </TableRow>    
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow2" >
+	    
+	    <TextView     
+	        android:id="@+id/Layers_title3"    
+	        android:textSize="18dip"    
+	        android:layout_weight="1"    
+	        android:layout_width="wrap_content"    
+	        android:layout_height="wrap_content"
+	        android:text="@string/Traffic"/>  
+	          
+	    <CheckBox    
+	        android:id="@+id/Layers_check3"       
+	        android:layout_width="wrap_content"    
+	        android:layout_height="wrap_content"    
+	        android:focusable="false"    
+	        android:focusableInTouchMode="false"     
+	        android:checkMark="?android:attr/listChoiceIndicatorMultiple"/> 
+    </TableRow>
+</RelativeLayout> 
+
+
+<!--android:layout_alignParentRight="true" -->

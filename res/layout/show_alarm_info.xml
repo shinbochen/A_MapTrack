@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout  
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:orientation="horizontal"  
+  android:layout_width="fill_parent"  
+  android:layout_height="fill_parent">  
+  <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+                      
+      <ImageView android:id="@+id/AL_Car_img"
+		        android:layout_width="32dp"
+		        android:layout_height="32dp"
+		        android:layout_margin="5px"/>
+          
+	  <TextView  
+		   android:layout_width="80dp"  
+		   android:layout_height="wrap_content"  
+           android:textSize="15dp"    
+           android:textColor="#0080FF"
+           android:textStyle="bold"
+		   android:id="@+id/AL_CarLicense"/>   
+		         
+	  <TextView  
+		   android:layout_width="70dp"  
+		   android:layout_height="wrap_content"  
+		   android:id="@+id/AL_AlarmType"/>
+	  	    
+	  <TextView  
+		   android:layout_width="fill_parent"  
+		   android:layout_height="wrap_content"  
+		   android:id="@+id/AL_Info"/> 
+    </TableRow>
+    
+  
+</LinearLayout>  

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/car_img"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="5px"
+        android:src="@drawable/car" />
+    
+    <RadioButton  
+            android:id="@+id/Radio_CarLicense"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:button="@null"  
+            android:paddingLeft="30dip"  
+            android:text="@string/CarLicense"  
+            android:textSize="15dp"    
+        	android:textColor="#0080FF"
+        	android:textStyle="bold" /> 
+
+</LinearLayout>

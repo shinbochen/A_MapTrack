@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<script>	
+			var	MapTrack={g_Map:null};
+		</script>
+    <style>
+    .divtTitle {
+		position	:	relative ; 
+		width		:	30%; 
+		height		:	16px; 
+		left 		: 	70% ;
+		top 		: 	5px ;
+		visibility	: 	hidden; 
+		background-color:#CCCCff;
+		z-index		:	12;
+		border-width:	1px;
+		border-style:	solid;
+		border-color:	#cccccc;
+		text-align	: 	right;
+		color		:	#666;
+		font-family	:	Arial;
+		font-size	:	12px;
+	}
+	
+	.divContent {
+		position	:	relative ; 
+		width		:	30%; 
+		height		:	200; 
+		left 		: 	70% ;
+		top 		: 	5px ;
+		visibility	: 	hidden; 
+		background-color:#ffffff;
+		z-index		:	12;
+		border-width:	2px;
+		border-style:	solid;
+		border-color:	#cccccc;
+	}
+    </style>
+    <title>Google Map</title>
+    <!-- script src="http://www.google.com/jsapi?key=ABQIAAAAx095nOTakYV7ihH2092smRQsoh-0mNYKaSjvqdwy3y4dKdIQvRSEzWbC-iucfioe_f-M9d_BctxuNA" type="text/javascript"></script-->          
+    <script src="http://ditu.google.cn/jsapi?key=ABQIAAAAx095nOTakYV7ihH2092smRQsoh-0mNYKaSjvqdwy3y4dKdIQvRSEzWbC-iucfioe_f-M9d_BctxuNA" type="text/javascript"></script>          	
+   	<!--scr ipt language="javascript" src="http://192.168.1.101/MapTrackWeb_V6/n_jscode2/ggMapPanel.js"></scr ipt-->		
+		<!--scr ipt language="javascript" src="http://192.168.1.101/MapTrackWeb_V6/n_jscode2/map.js "></scr ipt-->			
+		<script src="all2.js" type="text/javascript"></script>   
+    <script language="javascript"> 
+		function onLoad(){			
+			if (GBrowserIsCompatible()){	
+				MapTrack.g_Map = new ggMapPanel();
+				MapTrack.g_Map.init('div_map');
+				mapOnSize( );
+			}
+		}		
+    </script>	
+  </head>
+  <body leftmargin="0"  topmargin="0" scroll="no" onload="onLoad()" onunload="GUnload()" >  
+   	<div id="div_map" style="width: 100%; height: 100%; position:absolute; z-index:9"></div>    
+  </body>  
+</html>

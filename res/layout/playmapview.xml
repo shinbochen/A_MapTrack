@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/map_play"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:drawableLeft="@drawable/play"
+            android:text="@string/Play"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/map_stop"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:drawableLeft="@drawable/stop"
+            android:text="@string/Stop"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/map_pause"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:drawableLeft="@drawable/pause"
+            android:text="@string/Pause"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+    
+	<WebView android:id="@+id/webview"   
+      			  android:layout_width="fill_parent"   
+      			  android:layout_height="fill_parent"/> 
+       	
+  	 
+</LinearLayout>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+	
+	<TableLayout 
+	android:layout_width="fill_parent" 
+	android:layout_height="fill_parent" 
+	android:stretchColumns="1">	
+	
+		<TableRow>
+			<TextView 
+			android:text="@string/username" 
+			android:id="@+id/Text_UserInfo"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText 
+			android:text="" 
+			android:id="@+id/Edit_User"
+       		android:textSize="12dp"
+			android:layout_width="fill_parent" 
+			android:layout_height="40dp"/>
+		</TableRow>
+
+		<TableRow>
+			<TextView 
+			android:text="@string/userpsd" 
+			android:id="@+id/Text_Psd"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText 
+			android:text="" 
+			android:id="@+id/Edit_psd"
+       		android:textSize="12dp"
+			android:layout_width="fill_parent" 
+			android:password="true"
+			android:layout_height="40dp"/>
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+			android:text="@string/FName" 
+			android:id="@+id/Text_FName"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText 
+			android:text="" 
+			android:id="@+id/Edit_FName"
+       		android:textSize="12dp"
+			android:layout_width="fill_parent" 
+			android:layout_height="40dp"/>
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+			android:text="@string/LName" 
+			android:id="@+id/Text_LName"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText 
+			android:text="" 
+			android:id="@+id/Edit_LName"
+       		android:textSize="12dp"
+			android:layout_width="fill_parent" 
+			android:layout_height="40dp"/>
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+			android:text="@string/Tel_no" 
+			android:id="@+id/Text_Tel"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText
+			    android:id="@+id/Edit_Tel"
+			    android:layout_width="fill_parent"
+			    android:layout_height="40dp"
+			    android:inputType="phone"
+			    android:text=""
+			    android:textSize="12dp" />
+
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+			android:text="@string/Email" 
+			android:id="@+id/Text_EMail"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText
+			    android:id="@+id/Edit_EMail"
+			    android:layout_width="fill_parent"
+			    android:layout_height="40dp"
+			    android:inputType="textEmailAddress"
+			    android:text=""
+			    android:textSize="12dp" />
+
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+			android:text="@string/Company"
+			android:id="@+id/Text_Company"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText 
+			android:text="" 
+			android:id="@+id/Edit_Company"
+       		android:textSize="12dp"
+			android:layout_width="fill_parent" 
+			android:layout_height="40dp"/>
+		</TableRow>
+		
+		<TableRow>
+			<TextView 
+			android:text="@string/Key" 
+			android:id="@+id/Text_Key"
+       		android:textSize="12dp"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"/>
+			
+			<EditText 
+			android:text="" 
+			android:id="@+id/Edit_Key"
+       		android:textSize="12dp"
+			android:layout_width="fill_parent" 
+			android:layout_height="40dp"/>
+		</TableRow>
+		
+		<RelativeLayout
+	    android:id="@+id/tableRow3"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+
+	    <Button
+		        android:id="@+id/cancelButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginRight="20dp"
+       			android:textSize="15dp"
+       			android:textStyle="bold"
+       			android:drawableLeft="@drawable/cancel"    			
+        		android:textColor="#0080FF"
+        		android:background="#00FFFFFF"
+		        android:text="@string/Cancel" />
+		
+		<Button
+		        android:id="@+id/OkButton"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentLeft="true"
+		        android:layout_alignParentTop="true"
+		        android:layout_marginLeft="20dp"
+       			android:textSize="15dp"
+       			android:textStyle="bold"
+       			android:drawableLeft="@drawable/ok"    			
+        		android:textColor="#0080FF"
+        		android:background="#00FFFFFF"
+		        android:text="@string/OK" />
+
+    	</RelativeLayout>
+
+
+	</TableLayout>
+</LinearLayout>
+
+

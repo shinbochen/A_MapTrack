@@ -1,0 +1,410 @@
+/*
+ * User JS Library 0.1
+ * Copyright(c) 2008-2012, shinbo
+ * shinbo@hotmail.com
+ *
+ */
+
+html, body {
+	font:normal 12px verdana;
+    margin	:0;
+    padding	:0;
+    border	:0 none;
+    height	:100%;
+}
+p {
+    margin:5px;
+}
+.divtTitle {
+	position	:	relative ; 
+	width		:	30%; 
+	height		:	16px; 
+	left 		: 	70% ;
+	top 		: 	5px ;
+	visibility	: 	hidden; 
+	background-color:#CCCCff;
+	z-index		:	12;
+	border-width:	1px;
+	border-style:	solid;
+	border-color:	#cccccc;
+	text-align	: 	right;
+	color		:	#666;
+	font-family	:	Arial;
+	font-size	:	12px;
+}
+
+.divContent {
+	position	:	relative ; 
+	width		:	30%; 
+	height		:	200; 
+	left 		: 	70% ;
+	top 		: 	5px ;
+	visibility	: 	hidden; 
+	background-color:#ffffff;
+	z-index		:	12;
+	border-width:	2px;
+	border-style:	solid;
+	border-color:	#cccccc;
+}
+.x-form-field-10{margin:0;font:normal 9px tahoma,arial,helvetica,sans-serif;}
+.x-grid-record-red table{   
+    color: #FF0000;   
+}  
+.x-grid-record-gray table{   
+    color: #959595;   
+}  
+.x-grid-record-blue table{   
+    color: #3030FF;   
+}  
+.x-font-red{
+	font-size		: 12px;
+	font-weight	: bold;	
+	background-color: #FF0000; 
+	border: 1 solid #FF0000;
+} 
+.x-font-gray{
+	font-size		: 11px;
+	font-weight	: italic;	
+	border: 1 dotted #959595;
+}
+.x-font-blue{
+	font-size		: 12px;
+	font-weight	: bold;	
+	border: 1 solid #3030FF;
+}
+.x-font-black{
+	font-size		: 12px;
+	font-weight	: bold;	
+	//border: 1 solid #000000;
+}
+.zoomin {
+	background-image: url(skin/zoomin.gif)  !important;
+}
+.zoomout {
+	background-image: url(skin/zoomout.gif) !important;
+}
+.zoomall {
+	background-image: url(skin/zoomall.gif) !important;
+}
+.measure {
+	background-image: url(skin/measure.gif) !important;
+}
+.print {
+	background-image: url(skin/print.gif) !important;
+}
+.stview{
+	background-image: url(skin/streetview.gif) !important;	
+}
+
+.View{
+	background-image: url(skin/view.gif) !important;	
+}
+.superuser {
+	background-image: url(skin/supperuser.gif) !important;
+}
+.subuser {
+	background-image: url(skin/subuser.gif) !important;
+}
+.vehicle_select{
+	background-image: url(skin/car_select.gif) !important;
+}
+.vehicle_noselect {
+	background-image: url(skin/car_noselect.gif) !important;
+}
+.logout {
+	background-image: url(skin/exit.gif) !important;
+}
+
+.setting {
+	background-image: url(skin/Settings.gif) !important;
+}
+
+
+
+.ViewUserInfo {
+	background-image: url(skin/ViewUserInfo.gif) !important;
+}
+.EditUserInfo {
+	background-image: url(skin/EditUserInfo.gif) !important;
+}
+
+
+.51ditumap {
+	background-image: url(skin/51ditu.gif)  !important;
+}
+
+.googlemap {
+	background-image: url(skin/googlemap.gif)  !important;
+}
+
+.vmmap {
+	background-image: url(skin/vmmap.gif)  !important;
+}
+
+.mapinfomap {
+	background-image: url(skin/mapinfomap.gif)  !important;
+}
+
+.feedbackinfo {
+	background-image: url(skin/feedback.gif)  !important;
+}
+.alarminfo {
+	background-image: url(skin/alarm.gif)  !important;
+}
+.loginfo {
+	background-image: url(skin/loginfo.gif)  !important;
+}
+
+.Window{
+		background-image: url(skin/window.gif) !important;
+}
+
+.ManagerCenter {
+		background-image: url(skin/ManagerCenter.gif) !important;
+}
+
+.UserInfo {
+	  background-image: url(skin/UserInfo.gif) !important;
+}
+
+.VehicleManager {
+	 background-image: url(skin/VehicleManager.gif) !important;
+}
+
+.GroupList {
+    background-image: url(skin/GroupList.gif) !important;
+}
+
+.ReportCenter {
+		background-image: url(skin/ReportCenter.gif) !important;
+}
+
+.SystemSetup {
+	background-image: url(skin/SystemSetup.gif) !important;
+}
+
+.MileageReport {
+	background-image: url(skin/MileageReport.gif) !important;
+}
+.RunReport{
+	background-image: url(skin/RunReport.gif) !important;
+}
+.AlarmReport {
+	background-image: url(skin/AlarmReport.gif) !important;
+}
+.SpeedReport {
+	background-image: url(skin/SpeedReport.gif) !important;
+}
+
+.ChangeSkin {
+	background-image: url(skin/ChangeSkin.gif) !important;
+}
+.Default {
+	background-image: url(skin/Default.gif) !important;
+}
+
+.Vista {
+	background-image: url(skin/Vista.gif) !important;
+}
+
+
+.CarList {
+	background-image: url(skin/CarList.gif) !important;
+}
+
+.CommonCommand {
+	background-image: url(skin/CommonCommand.gif) !important;
+}
+.AdvancedCommand {
+	background-image: url(skin/AdvancedCommand.gif) !important;
+}
+
+.TrackOnce {
+	background-image: url(skin/TrackOnce.gif) !important;
+}
+
+.TrackLast {
+	background-image: url(skin/TrackLast.gif) !important;
+}
+.TrackHistory {
+	background-image: url(skin/TrackHistory.gif) !important;
+}
+
+.DisableOil {
+	 background-image: url(skin/DisableOil.gif) !important;
+}
+
+.EnableOil {
+	background-image: url(skin/EnableOil.gif) !important;
+}
+
+.CarListen {
+	background-image: url(skin/CarListen.gif) !important;
+}
+
+.CarTalk {
+	background-image: url(skin/CarTalk.gif) !important;
+}
+
+.ViewHWState {
+		background-image: url(skin/ViewHWState.gif) !important;
+}
+
+.ViewHWSetup {
+		background-image: url(skin/ViewHWSetup.gif) !important;
+}
+
+.SetupCallBackMode {
+	background-image: url(skin/SetupCallBackMode.gif) !important;
+}
+
+.SetupAlarmEnable {
+	background-image: url(skin/SetupAlarmEnable.gif) !important;
+}
+
+.SetupOverSpeedAlarm {
+	background-image: url(skin/SetupOverSpeedAlarm.gif) !important;
+}
+
+.DeviceRestoreFC {
+		background-image: url(skin/DeviceRestoreFC.gif) !important;
+}
+
+
+.SetupServer {
+	background-image: url(skin/SetupServer.gif) !important;
+}
+
+.StopAlarm {
+	background-image: url(skin/StopAlarm.gif) !important;
+}
+
+.SubUserList {
+	background-image: url(skin/SubUserList.gif) !important;
+}
+
+.RealtimeTrack {
+	background-image: url(skin/RealtimeTrack.gif) !important;
+}
+.LoginTime {
+	background-image: url(skin/logintime.gif) !important;
+}
+.LastRefresh {
+	background-image: url(skin/lastRefresh.gif) !important;
+}
+.RefreshTime {
+	background-image: url(skin/Refreshtime.gif) !important;
+}
+.Report {
+	background-image: url(skin/Report.gif) !important;
+}
+.Search {
+	background-image: url(skin/search.gif)  !important;
+}
+.Delete{
+	background-image: url(skin/delete.gif)  !important;
+}
+.DeleteAll{
+	background-image: url(skin/deleteall.gif)  !important;
+}
+.Excel{
+	background-image: url(skin/excel.gif)  !important;
+}
+.PDF{
+	background-image: url(skin/pdf.gif)  !important;
+}
+.Submit{
+	background-image: url(skin/Submit.gif)  !important;
+}
+.GraphicReport{
+	background-image: url(skin/report.gif)  !important;
+}
+.FenceTool{
+	background-image: url(skin/areaTool.gif)  !important;
+}	
+.PolygonTool{
+	background-image: url(skin/polygon.png)  !important;
+}
+.pointTool{
+	background-image: url(skin/pointTool.png)  !important;
+}	
+.MapTool{
+	background-image: url(skin/mapTool.gif)  !important;
+}	
+.SETUPFENCE{
+	background-image: url(skin/geosetup.gif)  !important;
+}
+.InFENCE{
+	background-image: url(skin/InGEOFence.gif)  !important;
+}
+.OutFENCE{
+	background-image: url(skin/OutGEOFence.gif)  !important;
+}	
+.DeleteFENCE{
+	background-image: url(skin/DeleteFence.gif)  !important;
+}	
+.Graphic{
+	background-image: url(skin/Graphic.gif)  !important;
+}
+.CaptureImage{
+	background-image: url(skin/CaptureImage.gif)  !important;
+}
+.all{
+	background-image: url(skin/all.gif)  !important;
+}
+.select{
+	background-image: url(skin/select.gif)  !important;
+}
+.unselect{
+	background-image: url(skin/unselect.gif)  !important;
+}
+.online{
+	background-image: url(skin/online.gif)  !important;
+}
+.offline{
+	background-image: url(skin/offline.gif)  !important;
+}
+.close{
+	background-image: url(skin/Close.gif)  !important;
+}
+.Modify{
+	background-image: url(skin/Modify.gif)  !important;
+}
+.Add{
+	background-image: url(skin/Add.png)  !important;
+}
+.showAll{
+	background-image: url(skin/showAll.png)  !important;
+}
+.hideAll{
+	background-image: url(skin/hideAll.png)  !important;
+}
+.Login{
+	background-image: url(skin/Login.gif)  !important;
+}
+.Register{
+	background-image: url(skin/Register.gif)  !important;
+}
+.alarm{
+	background-image: url(skin/alarm.gif)  !important;
+}
+.POIReport{
+	background-image: url(skin/POIReport.png)  !important;
+}
+.sig0{
+	background-image: url(skin/signal0.gif)  !important;
+}
+.sig1{
+	background-image: url(skin/signal1.gif)  !important;
+}
+.sig2{
+	background-image: url(skin/signal2.gif)  !important;
+}
+.sig3{
+	background-image: url(skin/signal3.gif)  !important;
+}
+.TrackERP{
+	background-image: url(skin/trackerp.gif)  !important;
+}
+
+
